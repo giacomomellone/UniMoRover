@@ -16,4 +16,6 @@ A .zip is providen in case the folders didn't contains all the files.
 
 The pdf *UniMoRover.pdf* and the slides *UniMoRover_slides.pptx* are made available (in italian) to examine in depth the project.
 
+Link to the video demonstration: [Video UniMoRover](https://drive.google.com/file/d/15m4ykpq-TjEOaIIhjdyY90AE6_lhhyMw/view?usp=sharing)
+
 ![UniMoRover](https://i.imgur.com/HacAzaw.jpg)
