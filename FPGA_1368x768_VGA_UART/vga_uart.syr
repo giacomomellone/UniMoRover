@@ -1,0 +1,1040 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: vga_uart.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vga_uart.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vga_uart"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : vga_uart
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\ipcore_dir\PLL.vhd" into library work
+Parsing entity <PLL>.
+Parsing architecture <xilinx> of entity <pll>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Ultrasonic_alert.vhd" into library work
+Parsing package <ultrasonic>.
+Parsing package body <ultrasonic>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Square.vhd" into library work
+Parsing package <frame>.
+Parsing package body <frame>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\horn_vga.vhd" into library work
+Parsing package <horn_vga>.
+Parsing package body <horn_vga>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\car_template.vhd" into library work
+Parsing package <car_vga>.
+Parsing package body <car_vga>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\buttons_vga.vhd" into library work
+Parsing package <button_vga>.
+Parsing package body <button_vga>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" into library work
+Parsing entity <Sync>.
+Parsing architecture <Main> of entity <sync>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Display7.vhd" into library work
+Parsing entity <Display7>.
+Parsing architecture <Behavioral> of entity <display7>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\VGA.vhd" into library work
+Parsing entity <VGA>.
+Parsing architecture <Main> of entity <vga>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\uart.vhd" into library work
+Parsing entity <uart>.
+Parsing architecture <Behavioral> of entity <uart>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\TX_counter.vhd" into library work
+Parsing entity <TX_counter>.
+Parsing architecture <Behavioral> of entity <tx_counter>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\RX_fsm.vhd" into library work
+Parsing entity <RX_fsm>.
+Parsing architecture <Behavioral> of entity <rx_fsm>.
+Parsing VHDL file "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\vga_uart.vhf" into library work
+Parsing entity <vga_uart>.
+Parsing architecture <BEHAVIORAL> of entity <vga_uart>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <vga_uart> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <VGA> (architecture <Main>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\VGA.vhd" Line 42: Using initial value '0' for reset since it is never assigned
+
+Elaborating entity <Sync> (architecture <Main>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 28: Using initial value 1800 for h_tot since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 29: Using initial value 1368 for h_vis since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 30: Using initial value 72 for h_fp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 32: Using initial value 216 for h_bp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 33: Using initial value 432 for h_timing since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 36: Using initial value 795 for v_tot since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 37: Using initial value 768 for v_vis since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 38: Using initial value 1 for v_fp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 40: Using initial value 23 for v_bp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 41: Using initial value 27 for v_timing since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 49: Using initial value 552 for sq_x since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 50: Using initial value 67 for sq_y since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 51: Using initial value 1200 for h_side since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 52: Using initial value 690 for v_side since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 55: Using initial value 832 for car_x since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 56: Using initial value 237 for car_y since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 62: Using initial value 90 for a since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 63: Using initial value 70 for e since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 64: Using initial value 160 for d1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 65: Using initial value 440 for d2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 66: Using initial value 110 for h since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 67: Using initial value 80 for t since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 68: Using initial value 110 for p since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 69: Using initial value 150 for f since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 70: Using initial value 60 for r1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 71: Using initial value 250 for a1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 72: Using initial value 0 for h1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 73: Using initial value 110 for h2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 74: Using initial value 120 for an since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 95: Using initial value 756 for al_x1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 96: Using initial value 347 for al_y1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 97: Using initial value 1356 for al_x2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 98: Using initial value 347 for al_y2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 99: Using initial value 30 for offset since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 102: Using initial value 582 for xbtn since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 103: Using initial value 547 for ybtn since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 104: Using initial value 70 for d since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 105: Using initial value 652 for x_btn_up since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 106: Using initial value 547 for y_btn_up since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 107: Using initial value 722 for x_btn_right since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 108: Using initial value 617 for y_btn_right since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 109: Using initial value 582 for x_btn_left since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 110: Using initial value 617 for y_btn_left since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 111: Using initial value 652 for x_btn_down since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 112: Using initial value 687 for y_btn_down since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 113: Using initial value 1582 for x_motor since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 114: Using initial value 87 for y_motor since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 115: Using initial value 50 for s since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 116: Using initial value 150 for s_motor since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 119: Using initial value 1082 for x_horn since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 120: Using initial value 287 for y_horn since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 121: Using initial value 30 for d_horn since it is never assigned
+
+Elaborating entity <PLL> (architecture <xilinx>) from library <work>.
+
+Elaborating entity <Display7> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <uart> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <TX_counter> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\TX_counter.vhd" Line 39: Using initial value idle for next_state since it is never assigned
+INFO:HDLCompiler:679 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\TX_counter.vhd" Line 135. Case statement is complete. others clause is never selected
+
+Elaborating entity <RX_fsm> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\RX_fsm.vhd" Line 38: Using initial value idle for next_state since it is never assigned
+INFO:HDLCompiler:679 - "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\RX_fsm.vhd" Line 101. Case statement is complete. others clause is never selected
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <vga_uart>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\vga_uart.vhf".
+    Summary:
+	no macro.
+Unit <vga_uart> synthesized.
+
+Synthesizing Unit <VGA>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\VGA.vhd".
+    Summary:
+	no macro.
+Unit <VGA> synthesized.
+
+Synthesizing Unit <Sync>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd".
+    Found 4-bit register for signal <G>.
+    Found 4-bit register for signal <B>.
+    Found 11-bit register for signal <HPOS>.
+    Found 10-bit register for signal <VPOS>.
+    Found 1-bit register for signal <HSYNC>.
+    Found 1-bit register for signal <VSYNC>.
+    Found 4-bit register for signal <R>.
+    Found 11-bit adder for signal <HPOS[10]_GND_12_o_add_144_OUT> created at line 218.
+    Found 10-bit adder for signal <VPOS[9]_GND_12_o_add_146_OUT> created at line 222.
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_1_o> created at line 25
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_2_o> created at line 25
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_5_o> created at line 27
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_12_o_LessThan_6_o> created at line 27
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_13_o> created at line 27
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_14_o> created at line 27
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_12_o_LessThan_17_o> created at line 31
+    Found 11-bit comparator greater for signal <PWR_12_o_HPOS[10]_LessThan_18_o> created at line 31
+    Found 11-bit comparator greater for signal <PWR_12_o_HPOS[10]_LessThan_21_o> created at line 33
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_22_o> created at line 33
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_28_o> created at line 39
+    Found 10-bit comparator greater for signal <n0055> created at line 43
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_39_o> created at line 48
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_42_o> created at line 50
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_12_o_LessThan_43_o> created at line 50
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_44_o> created at line 50
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_45_o> created at line 50
+    Found 11-bit comparator greater for signal <PWR_12_o_HPOS[10]_LessThan_48_o> created at line 52
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_49_o> created at line 52
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_50_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_12_o_LessThan_51_o> created at line 23
+    Found 11-bit comparator greater for signal <PWR_12_o_HPOS[10]_LessThan_64_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_65_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_67_o> created at line 23
+    Found 10-bit comparator greater for signal <PWR_12_o_VPOS[9]_LessThan_80_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_12_o_LessThan_81_o> created at line 23
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_82_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_12_o_LessThan_83_o> created at line 23
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_86_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_12_o_LessThan_87_o> created at line 23
+    Found 10-bit comparator greater for signal <PWR_12_o_VPOS[9]_LessThan_88_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_12_o_LessThan_89_o> created at line 23
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_90_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_12_o_LessThan_91_o> created at line 23
+    Found 10-bit comparator greater for signal <PWR_12_o_VPOS[9]_LessThan_92_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_12_o_LessThan_93_o> created at line 23
+    Found 11-bit comparator greater for signal <PWR_12_o_HPOS[10]_LessThan_94_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_95_o> created at line 23
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_96_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_97_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_99_o> created at line 23
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_100_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_102_o> created at line 24
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_103_o> created at line 24
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_105_o> created at line 25
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_106_o> created at line 25
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_12_o_LessThan_144_o> created at line 217
+    Found 10-bit comparator lessequal for signal <VPOS[9]_PWR_12_o_LessThan_146_o> created at line 221
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_151_o> created at line 227
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_12_o_LessThan_152_o> created at line 227
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_153_o> created at line 232
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_154_o> created at line 232
+    Found 11-bit comparator greater for signal <GND_12_o_HPOS[10]_LessThan_155_o> created at line 237
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_12_o_LessThan_156_o> created at line 237
+    Found 10-bit comparator greater for signal <GND_12_o_VPOS[9]_LessThan_157_o> created at line 237
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_12_o_LessThan_158_o> created at line 237
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+	inferred  56 Comparator(s).
+	inferred  25 Multiplexer(s).
+Unit <Sync> synthesized.
+
+Synthesizing Unit <PLL>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\ipcore_dir\PLL.vhd".
+    Summary:
+	no macro.
+Unit <PLL> synthesized.
+
+Synthesizing Unit <Display7>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Display7.vhd".
+    Found 8-bit register for signal <COMMAND>.
+    Found 4-bit register for signal <AN>.
+    Found 8-bit register for signal <SEG>.
+    Found 31-bit register for signal <cnt>.
+    Found 31-bit adder for signal <cnt[30]_GND_17_o_add_0_OUT> created at line 49.
+    Found 31-bit comparator greater for signal <cnt[30]_GND_17_o_LessThan_77_o> created at line 139
+    Found 31-bit comparator greater for signal <cnt[30]_GND_17_o_LessThan_79_o> created at line 142
+    Found 31-bit comparator greater for signal <cnt[30]_GND_17_o_LessThan_81_o> created at line 145
+    Found 31-bit comparator greater for signal <cnt[30]_GND_17_o_LessThan_83_o> created at line 148
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  51 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  41 Multiplexer(s).
+Unit <Display7> synthesized.
+
+Synthesizing Unit <uart>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\uart.vhd".
+        CLK_FREQ = 100
+        SER_FREQ = 9600
+    Found 14-bit register for signal <tx_clk_gen.counter>.
+    Found 1-bit register for signal <tx>.
+    Found 3-bit register for signal <tx_fsm>.
+    Found 1-bit register for signal <tx_par_bit>.
+    Found 1-bit register for signal <tx_req_int>.
+    Found 8-bit register for signal <tx_data_tmp>.
+    Found 3-bit register for signal <tx_data_cnt>.
+    Found 1-bit register for signal <tx_end>.
+    Found 1-bit register for signal <rx_data_deb>.
+    Found 4-bit register for signal <rx_debounceer.deb_buf>.
+    Found 1-bit register for signal <rx_clk_en>.
+    Found 10-bit register for signal <rx_clk_gen.counter>.
+    Found 1-bit register for signal <rx_ready>.
+    Found 3-bit register for signal <rx_fsm>.
+    Found 1-bit register for signal <rx_par_bit>.
+    Found 3-bit register for signal <rx_data_cnt>.
+    Found 5-bit register for signal <rx_clk_cnt>.
+    Found 8-bit register for signal <rx_data>.
+    Found 8-bit register for signal <rx_data_tmp>.
+    Found 1-bit register for signal <tx_clk_en>.
+INFO:Xst:1799 - State ck_start_bit is never reached in FSM <tx_fsm>.
+    Found finite state machine <FSM_0> for signal <tx_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+INFO:Xst:1799 - State stop1 is never reached in FSM <rx_fsm>.
+INFO:Xst:1799 - State stop2 is never reached in FSM <rx_fsm>.
+INFO:Xst:1799 - State stop3 is never reached in FSM <rx_fsm>.
+    Found finite state machine <FSM_1> for signal <rx_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 18                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | _n0237 (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 14-bit adder for signal <tx_clk_gen.counter[13]_GND_18_o_add_1_OUT> created at line 82.
+    Found 10-bit adder for signal <rx_clk_gen.counter[9]_GND_18_o_add_34_OUT> created at line 203.
+    Found 3-bit adder for signal <rx_data_cnt[2]_GND_18_o_add_48_OUT> created at line 273.
+    Found 5-bit adder for signal <rx_clk_cnt[4]_GND_18_o_add_53_OUT> created at line 277.
+    Found 3-bit subtractor for signal <GND_18_o_GND_18_o_sub_11_OUT<2:0>> created at line 141.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  72 D-type flip-flop(s).
+	inferred  23 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <uart> synthesized.
+
+Synthesizing Unit <TX_counter>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\TX_counter.vhd".
+    Found 1-bit register for signal <count_done>.
+    Found 2-bit register for signal <tx_fsm>.
+    Found 1-bit register for signal <counter_on>.
+    Found 1-bit register for signal <tx_req>.
+    Found 25-bit register for signal <wait_cnt>.
+    Found finite state machine <FSM_2> for signal <tx_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 25-bit adder for signal <wait_cnt[24]_GND_20_o_add_0_OUT> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <TX_counter> synthesized.
+
+Synthesizing Unit <RX_fsm>.
+    Related source file is "C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\RX_fsm.vhd".
+    Found 8-bit register for signal <DATA>.
+    Found 3-bit register for signal <ALERT>.
+    Found 2-bit register for signal <rx_fsm>.
+    Found finite state machine <FSM_3> for signal <rx_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred  11 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <RX_fsm> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 10-bit adder                                          : 2
+ 11-bit adder                                          : 1
+ 14-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 1
+ 31-bit adder                                          : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 35
+ 1-bit register                                        : 14
+ 10-bit register                                       : 2
+ 11-bit register                                       : 1
+ 14-bit register                                       : 1
+ 25-bit register                                       : 1
+ 3-bit register                                        : 3
+ 31-bit register                                       : 1
+ 4-bit register                                        : 5
+ 5-bit register                                        : 1
+ 8-bit register                                        : 6
+# Comparators                                          : 60
+ 10-bit comparator greater                             : 26
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 29
+ 31-bit comparator greater                             : 4
+# Multiplexers                                         : 89
+ 1-bit 2-to-1 multiplexer                              : 11
+ 10-bit 2-to-1 multiplexer                             : 1
+ 14-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 3
+ 31-bit 2-to-1 multiplexer                             : 12
+ 4-bit 2-to-1 multiplexer                              : 35
+ 5-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 22
+# FSMs                                                 : 4
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <rx_data_tmp_0> of sequential type is unconnected in block <XLXI_2>.
+
+Synthesizing (advanced) Unit <Sync>.
+The following registers are absorbed into counter <HPOS>: 1 register on signal <HPOS>.
+The following registers are absorbed into counter <VPOS>: 1 register on signal <VPOS>.
+Unit <Sync> synthesized (advanced).
+
+Synthesizing (advanced) Unit <TX_counter>.
+The following registers are absorbed into counter <wait_cnt>: 1 register on signal <wait_cnt>.
+Unit <TX_counter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <uart>.
+The following registers are absorbed into counter <rx_data_cnt>: 1 register on signal <rx_data_cnt>.
+The following registers are absorbed into counter <rx_clk_gen.counter>: 1 register on signal <rx_clk_gen.counter>.
+The following registers are absorbed into counter <tx_clk_gen.counter>: 1 register on signal <tx_clk_gen.counter>.
+Unit <uart> synthesized (advanced).
+WARNING:Xst:2677 - Node <rx_data_tmp_0> of sequential type is unconnected in block <uart>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 3-bit subtractor                                      : 1
+ 31-bit adder                                          : 1
+ 5-bit adder                                           : 1
+# Counters                                             : 6
+ 10-bit up counter                                     : 2
+ 11-bit up counter                                     : 1
+ 14-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 123
+ Flip-Flops                                            : 123
+# Comparators                                          : 60
+ 10-bit comparator greater                             : 26
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 29
+ 31-bit comparator greater                             : 4
+# Multiplexers                                         : 86
+ 1-bit 2-to-1 multiplexer                              : 11
+ 3-bit 2-to-1 multiplexer                              : 2
+ 31-bit 2-to-1 multiplexer                             : 12
+ 4-bit 2-to-1 multiplexer                              : 35
+ 5-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 22
+# FSMs                                                 : 4
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_2> on signal <tx_fsm[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ count | 01
+ send  | 11
+ stop  | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <XLXI_2/FSM_0> on signal <tx_fsm[1:3]> with user encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ idle         | 000
+ ck_start_bit | unreached
+ data         | 010
+ parity       | 011
+ stop1        | 100
+ stop2        | 101
+ stop3        | 110
+--------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <XLXI_2/FSM_1> on signal <rx_fsm[1:2]> with sequential encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ idle         | 00
+ ck_start_bit | 01
+ data         | 10
+ parity       | 11
+ stop1        | unreached
+ stop2        | unreached
+ stop3        | unreached
+--------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <XLXI_15/FSM_3> on signal <rx_fsm[1:2]> with user encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 00
+ read_data | 01
+ stop      | 10
+-----------------------
+WARNING:Xst:1710 - FF/Latch <COMMAND_6> (without init value) has a constant value of 1 in block <Display7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <COMMAND_7> (without init value) has a constant value of 0 in block <Display7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SEG_7> (without init value) has a constant value of 1 in block <Display7>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance XLXI_1/C2/pll_base_inst in unit XLXI_1/C2/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <G_0> in Unit <Sync> is equivalent to the following 3 FFs/Latches, which will be removed : <G_1> <G_2> <G_3> 
+INFO:Xst:2261 - The FF/Latch <B_0> in Unit <Sync> is equivalent to the following 3 FFs/Latches, which will be removed : <B_1> <B_2> <B_3> 
+INFO:Xst:2261 - The FF/Latch <R_0> in Unit <Sync> is equivalent to the following 3 FFs/Latches, which will be removed : <R_1> <R_2> <R_3> 
+
+Optimizing unit <vga_uart> ...
+
+Optimizing unit <Sync> ...
+
+Optimizing unit <Display7> ...
+
+Optimizing unit <uart> ...
+
+Optimizing unit <RX_fsm> ...
+WARNING:Xst:1710 - FF/Latch <XLXI_2/tx_data_tmp_7> (without init value) has a constant value of 0 in block <vga_uart>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <XLXI_2/rx_clk_cnt_4> (without init value) has a constant value of 0 in block <vga_uart>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_2/rx_par_bit> (without init value) has a constant value of 0 in block <vga_uart>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vga_uart, actual ratio is 5.
+WARNING:Xst:2957 - There are clock and non-clock loads on clock signal CLOCK_100_BUFGP. This is not a recommended design practice, that may cause excessive delay, skew or unroutable situations.
+FlipFlop XLXI_1/C1/HPOS_1 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/HPOS_2 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/HPOS_3 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/HPOS_4 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/HPOS_5 has been replicated 3 time(s)
+FlipFlop XLXI_1/C1/HPOS_6 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/HPOS_7 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/HPOS_8 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/HPOS_9 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/VPOS_2 has been replicated 3 time(s)
+FlipFlop XLXI_1/C1/VPOS_3 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/VPOS_4 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/VPOS_5 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/VPOS_6 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/VPOS_7 has been replicated 2 time(s)
+FlipFlop XLXI_1/C1/VPOS_8 has been replicated 1 time(s)
+FlipFlop XLXI_1/C1/VPOS_9 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 224
+ Flip-Flops                                            : 224
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : vga_uart.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 690
+#      GND                         : 1
+#      INV                         : 13
+#      LUT1                        : 86
+#      LUT2                        : 56
+#      LUT3                        : 56
+#      LUT4                        : 37
+#      LUT5                        : 93
+#      LUT6                        : 120
+#      MUXCY                       : 121
+#      MUXF7                       : 5
+#      VCC                         : 1
+#      XORCY                       : 101
+# FlipFlops/Latches                : 224
+#      FD                          : 10
+#      FDR                         : 130
+#      FDRE                        : 69
+#      FDS                         : 8
+#      FDSE                        : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      IBUF                        : 6
+#      OBUF                        : 27
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             224  out of  18224     1%  
+ Number of Slice LUTs:                  461  out of   9112     5%  
+    Number used as Logic:               461  out of   9112     5%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    512
+   Number with an unused Flip Flop:     288  out of    512    56%  
+   Number with an unused LUT:            51  out of    512     9%  
+   Number of fully used LUT-FF pairs:   173  out of    512    33%  
+   Number of unique control sets:        18
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    232    14%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLOCK_100                          | BUFGP                  | 116   |
+XLXI_1/C2/pll_base_inst/CLKOUT0    | NONE(XLXI_1/C1/VPOS_9) | 60    |
+XLXI_1/C2/pll_base_inst/CLKOUT1    | NONE(XLXI_1/C3/cnt_30) | 48    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.481ns (Maximum Frequency: 154.286MHz)
+   Minimum input arrival time before clock: 7.947ns
+   Maximum output required time after clock: 3.701ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_100'
+  Clock period: 4.363ns (frequency: 229.176MHz)
+  Total number of paths / destination ports: 1970 / 196
+-------------------------------------------------------------------------
+Delay:               4.363ns (Levels of Logic = 13)
+  Source:            XLXI_2/rx_clk_gen.counter_4 (FF)
+  Destination:       XLXI_2/rx_clk_gen.counter_9 (FF)
+  Source Clock:      CLOCK_100 rising
+  Destination Clock: CLOCK_100 rising
+
+  Data Path: XLXI_2/rx_clk_gen.counter_4 to XLXI_2/rx_clk_gen.counter_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.961  XLXI_2/rx_clk_gen.counter_4 (XLXI_2/rx_clk_gen.counter_4)
+     LUT5:I0->O            3   0.203   0.651  XLXI_2/PWR_17_o_rx_clk_gen.counter[9]_equal_34_o<9>_SW0 (N41)
+     LUT6:I5->O           10   0.205   1.085  XLXI_2/PWR_17_o_rx_clk_gen.counter[9]_equal_34_o<9> (XLXI_2/PWR_17_o_rx_clk_gen.counter[9]_equal_34_o)
+     LUT3:I0->O            1   0.205   0.000  XLXI_2/Mcount_rx_clk_gen.counter_lut<0> (XLXI_2/Mcount_rx_clk_gen.counter_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<0> (XLXI_2/Mcount_rx_clk_gen.counter_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<1> (XLXI_2/Mcount_rx_clk_gen.counter_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<2> (XLXI_2/Mcount_rx_clk_gen.counter_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<3> (XLXI_2/Mcount_rx_clk_gen.counter_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<4> (XLXI_2/Mcount_rx_clk_gen.counter_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<5> (XLXI_2/Mcount_rx_clk_gen.counter_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<6> (XLXI_2/Mcount_rx_clk_gen.counter_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<7> (XLXI_2/Mcount_rx_clk_gen.counter_cy<7>)
+     MUXCY:CI->O           0   0.019   0.000  XLXI_2/Mcount_rx_clk_gen.counter_cy<8> (XLXI_2/Mcount_rx_clk_gen.counter_cy<8>)
+     XORCY:CI->O           1   0.180   0.000  XLXI_2/Mcount_rx_clk_gen.counter_xor<9> (XLXI_2/Mcount_rx_clk_gen.counter9)
+     FDR:D                     0.102          XLXI_2/rx_clk_gen.counter_9
+    ----------------------------------------
+    Total                      4.363ns (1.666ns logic, 2.697ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/C2/pll_base_inst/CLKOUT0'
+  Clock period: 6.481ns (frequency: 154.286MHz)
+  Total number of paths / destination ports: 4303 / 143
+-------------------------------------------------------------------------
+Delay:               6.481ns (Levels of Logic = 6)
+  Source:            XLXI_1/C1/VPOS_0 (FF)
+  Destination:       XLXI_1/C1/B_0 (FF)
+  Source Clock:      XLXI_1/C2/pll_base_inst/CLKOUT0 rising
+  Destination Clock: XLXI_1/C2/pll_base_inst/CLKOUT0 rising
+
+  Data Path: XLXI_1/C1/VPOS_0 to XLXI_1/C1/B_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.447   1.037  XLXI_1/C1/VPOS_0 (XLXI_1/C1/VPOS_0)
+     LUT3:I1->O            5   0.203   0.715  XLXI_1/C1/DRAW_H13111 (XLXI_1/C1/DRAW_H1311)
+     LUT6:I5->O            7   0.205   0.774  XLXI_1/C1/VPOS[9]_GND_12_o_LessThan_67_o1 (XLXI_1/C1/VPOS[9]_GND_12_o_LessThan_67_o)
+     LUT4:I3->O            3   0.205   0.651  XLXI_1/C1/DRAW_AL11 (XLXI_1/C1/DRAW_AL11)
+     LUT6:I5->O            2   0.205   0.845  XLXI_1/C1/DRAW_AL16 (XLXI_1/C1/DRAW_AL1)
+     LUT6:I3->O            1   0.205   0.684  XLXI_1/C1/B_0_glue_set_SW2 (N90)
+     LUT6:I4->O            1   0.203   0.000  XLXI_1/C1/B_0_glue_set (XLXI_1/C1/B_0_glue_set)
+     FDR:D                     0.102          XLXI_1/C1/B_0
+    ----------------------------------------
+    Total                      6.481ns (1.775ns logic, 4.706ns route)
+                                       (27.4% logic, 72.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/C2/pll_base_inst/CLKOUT1'
+  Clock period: 6.006ns (frequency: 166.490MHz)
+  Total number of paths / destination ports: 16321 / 49
+-------------------------------------------------------------------------
+Delay:               6.006ns (Levels of Logic = 10)
+  Source:            XLXI_1/C3/cnt_8 (FF)
+  Destination:       XLXI_1/C3/cnt_30 (FF)
+  Source Clock:      XLXI_1/C2/pll_base_inst/CLKOUT1 rising
+  Destination Clock: XLXI_1/C2/pll_base_inst/CLKOUT1 rising
+
+  Data Path: XLXI_1/C3/cnt_8 to XLXI_1/C3/cnt_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.447   1.174  XLXI_1/C3/cnt_8 (XLXI_1/C3/cnt_8)
+     LUT5:I0->O            1   0.203   0.000  XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_lut<0> (XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<0> (XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<1> (XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<2> (XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<3> (XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<4> (XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<4>)
+     MUXCY:CI->O          15   0.213   0.982  XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<5> (XLXI_1/C3/Mcompar_cnt[30]_GND_17_o_LessThan_77_o_cy<5>)
+     LUT2:I1->O            6   0.205   0.745  XLXI_1/C3/cnt[30]_GND_17_o_LessThan_77_o12111 (XLXI_1/C3/cnt[30]_GND_17_o_LessThan_77_o1211)
+     LUT6:I5->O           31   0.205   1.278  XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT1014 (XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT101)
+     LUT2:I1->O            1   0.205   0.000  XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT21 (XLXI_1/C3/cnt[30]_GND_17_o_mux_118_OUT<0>)
+     FDR:D                     0.102          XLXI_1/C3/cnt_0
+    ----------------------------------------
+    Total                      6.006ns (1.828ns logic, 4.178ns route)
+                                       (30.4% logic, 69.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_1/C2/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 2776 / 103
+-------------------------------------------------------------------------
+Offset:              7.947ns (Levels of Logic = 6)
+  Source:            btn<4> (PAD)
+  Destination:       XLXI_1/C3/cnt_30 (FF)
+  Destination Clock: XLXI_1/C2/pll_base_inst/CLKOUT1 rising
+
+  Data Path: btn<4> to XLXI_1/C3/cnt_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.222   1.420  btn_4_IBUF (btn_4_IBUF)
+     LUT5:I1->O           18   0.203   1.278  XLXI_1/C3/BTN[0]_BTN[4]_AND_86_o<1>1 (XLXI_1/C3/BTN[0]_BTN[4]_AND_86_o)
+     LUT5:I2->O            1   0.205   0.944  XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT1012_SW0 (N80)
+     LUT6:I0->O            1   0.203   0.684  XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT1012 (XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT1012)
+     LUT6:I4->O           31   0.203   1.278  XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT1014 (XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT101)
+     LUT2:I1->O            1   0.205   0.000  XLXI_1/C3/Mmux_cnt[30]_GND_17_o_mux_118_OUT21 (XLXI_1/C3/cnt[30]_GND_17_o_mux_118_OUT<0>)
+     FDR:D                     0.102          XLXI_1/C3/cnt_0
+    ----------------------------------------
+    Total                      7.947ns (2.343ns logic, 5.604ns route)
+                                       (29.5% logic, 70.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK_100'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.344ns (Levels of Logic = 3)
+  Source:            RsRx (PAD)
+  Destination:       XLXI_2/rx_ready (FF)
+  Destination Clock: CLOCK_100 rising
+
+  Data Path: RsRx to XLXI_2/rx_ready
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.222   0.931  RsRx_IBUF (RsRx_IBUF)
+     LUT6:I2->O            1   0.203   0.684  XLXI_2/Mmux_rx_fsm[2]_GND_18_o_MUX_165_o11 (XLXI_2/rx_fsm[2]_GND_18_o_MUX_165_o)
+     LUT2:I0->O            1   0.203   0.000  XLXI_2/rx_ready_rstpot (XLXI_2/rx_ready_rstpot)
+     FD:D                      0.102          XLXI_2/rx_ready
+    ----------------------------------------
+    Total                      3.344ns (1.730ns logic, 1.614ns route)
+                                       (51.7% logic, 48.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_1/C2/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 8 / 3
+-------------------------------------------------------------------------
+Offset:              5.194ns (Levels of Logic = 4)
+  Source:            btn<4> (PAD)
+  Destination:       XLXI_1/C1/B_0 (FF)
+  Destination Clock: XLXI_1/C2/pll_base_inst/CLKOUT0 rising
+
+  Data Path: btn<4> to XLXI_1/C1/B_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.222   1.537  btn_4_IBUF (btn_4_IBUF)
+     LUT6:I0->O            4   0.203   0.912  XLXI_1/C1/DRAW_H_BTN[4]_AND_64_o1 (XLXI_1/C1/DRAW_H_BTN[4]_AND_64_o)
+     LUT4:I1->O            1   0.205   0.808  XLXI_1/C1/B_0_glue_set_SW3 (N91)
+     LUT6:I3->O            1   0.205   0.000  XLXI_1/C1/B_0_glue_set (XLXI_1/C1/B_0_glue_set)
+     FDR:D                     0.102          XLXI_1/C1/B_0
+    ----------------------------------------
+    Total                      5.194ns (1.937ns logic, 3.257ns route)
+                                       (37.3% logic, 62.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/C2/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            XLXI_1/C3/AN_3 (FF)
+  Destination:       AN<3> (PAD)
+  Source Clock:      XLXI_1/C2/pll_base_inst/CLKOUT1 rising
+
+  Data Path: XLXI_1/C3/AN_3 to AN<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              1   0.447   0.579  XLXI_1/C3/AN_3 (XLXI_1/C3/AN_3)
+     OBUF:I->O                 2.571          AN_3_OBUF (AN<3>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/C2/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              3.701ns (Levels of Logic = 1)
+  Source:            XLXI_1/C1/B_0 (FF)
+  Destination:       VGA_B<3> (PAD)
+  Source Clock:      XLXI_1/C2/pll_base_inst/CLKOUT0 rising
+
+  Data Path: XLXI_1/C1/B_0 to VGA_B<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.447   0.683  XLXI_1/C1/B_0 (XLXI_1/C1/B_0)
+     OBUF:I->O                 2.571          VGA_B_3_OBUF (VGA_B<3>)
+    ----------------------------------------
+    Total                      3.701ns (3.018ns logic, 0.683ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_100'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            XLXI_2/tx (FF)
+  Destination:       RsTx (PAD)
+  Source Clock:      CLOCK_100 rising
+
+  Data Path: XLXI_2/tx to RsTx
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              2   0.447   0.616  XLXI_2/tx (XLXI_2/tx)
+     OBUF:I->O                 2.571          RsTx_OBUF (RsTx)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLOCK_100
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+CLOCK_100                      |    4.363|         |         |         |
+XLXI_1/C2/pll_base_inst/CLKOUT1|    1.334|         |         |         |
+-------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_1/C2/pll_base_inst/CLKOUT0
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+CLOCK_100                      |    3.842|         |         |         |
+XLXI_1/C2/pll_base_inst/CLKOUT0|    6.481|         |         |         |
+-------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_1/C2/pll_base_inst/CLKOUT1
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+XLXI_1/C2/pll_base_inst/CLKOUT1|    6.006|         |         |         |
+-------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.45 secs
+ 
+--> 
+
+Total memory usage is 258904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   64 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+

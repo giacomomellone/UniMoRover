@@ -1,0 +1,138 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Dec 13 11:44:40 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "VGA_B<1>" LOCATE = SITE "R7" LEVEL 1;
+COMP "VGA_B<2>" LOCATE = SITE "T7" LEVEL 1;
+COMP "VGA_G<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "VGA_G<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "VGA_G<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "VGA_R<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "VGA_R<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "VGA_R<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "RsRx" LOCATE = SITE "P11" LEVEL 1;
+COMP "RsTx" LOCATE = SITE "V11" LEVEL 1;
+COMP "AN<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "AN<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "AN<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "AN<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "SEG<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "SEG<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "SEG<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "SEG<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "SEG<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "SEG<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "SEG<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "SEG<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "VGA_HS" LOCATE = SITE "N6" LEVEL 1;
+COMP "VGA_VS" LOCATE = SITE "P7" LEVEL 1;
+COMP "btn<0>" LOCATE = SITE "A8" LEVEL 1;
+COMP "btn<1>" LOCATE = SITE "C4" LEVEL 1;
+COMP "btn<2>" LOCATE = SITE "C9" LEVEL 1;
+COMP "btn<3>" LOCATE = SITE "D9" LEVEL 1;
+COMP "btn<4>" LOCATE = SITE "B8" LEVEL 1;
+COMP "CLOCK_100" LOCATE = SITE "V10" LEVEL 1;
+PIN XLXI_1/C2/pll_base_inst/PLL_ADV_pins<2> = BEL
+        "XLXI_1/C2/pll_base_inst/PLL_ADV" PINNAME CLKIN1;
+TIMEGRP sys_clk_pin = BEL "XLXI_13/counter_on" BEL "XLXI_13/tx_req" BEL
+        "XLXI_13/count_done" BEL "XLXI_13/wait_cnt_0" BEL "XLXI_13/wait_cnt_1"
+        BEL "XLXI_13/wait_cnt_2" BEL "XLXI_13/wait_cnt_3" BEL
+        "XLXI_13/wait_cnt_4" BEL "XLXI_13/wait_cnt_5" BEL "XLXI_13/wait_cnt_6"
+        BEL "XLXI_13/wait_cnt_7" BEL "XLXI_13/wait_cnt_8" BEL
+        "XLXI_13/wait_cnt_9" BEL "XLXI_13/wait_cnt_10" BEL
+        "XLXI_13/wait_cnt_11" BEL "XLXI_13/wait_cnt_12" BEL
+        "XLXI_13/wait_cnt_13" BEL "XLXI_13/wait_cnt_14" BEL
+        "XLXI_13/wait_cnt_15" BEL "XLXI_13/wait_cnt_16" BEL
+        "XLXI_13/wait_cnt_17" BEL "XLXI_13/wait_cnt_18" BEL
+        "XLXI_13/wait_cnt_19" BEL "XLXI_13/wait_cnt_20" BEL
+        "XLXI_13/wait_cnt_21" BEL "XLXI_13/wait_cnt_22" BEL
+        "XLXI_13/wait_cnt_23" BEL "XLXI_13/wait_cnt_24" BEL
+        "XLXI_13/tx_fsm_FSM_FFd1" BEL "XLXI_13/tx_fsm_FSM_FFd2" BEL
+        "XLXI_2/rx_data_cnt_2" BEL "XLXI_2/rx_data_cnt_1" BEL
+        "XLXI_2/rx_data_cnt_0" BEL "XLXI_2/rx_clk_gen.counter_9" BEL
+        "XLXI_2/rx_clk_gen.counter_8" BEL "XLXI_2/rx_clk_gen.counter_7" BEL
+        "XLXI_2/rx_clk_gen.counter_6" BEL "XLXI_2/rx_clk_gen.counter_5" BEL
+        "XLXI_2/rx_clk_gen.counter_4" BEL "XLXI_2/rx_clk_gen.counter_3" BEL
+        "XLXI_2/rx_clk_gen.counter_2" BEL "XLXI_2/rx_clk_gen.counter_1" BEL
+        "XLXI_2/rx_clk_gen.counter_0" BEL "XLXI_2/tx_clk_gen.counter_13" BEL
+        "XLXI_2/tx_clk_gen.counter_12" BEL "XLXI_2/tx_clk_gen.counter_11" BEL
+        "XLXI_2/tx_clk_gen.counter_10" BEL "XLXI_2/tx_clk_gen.counter_9" BEL
+        "XLXI_2/tx_clk_gen.counter_8" BEL "XLXI_2/tx_clk_gen.counter_7" BEL
+        "XLXI_2/tx_clk_gen.counter_6" BEL "XLXI_2/tx_clk_gen.counter_5" BEL
+        "XLXI_2/tx_clk_gen.counter_4" BEL "XLXI_2/tx_clk_gen.counter_3" BEL
+        "XLXI_2/tx_clk_gen.counter_2" BEL "XLXI_2/tx_clk_gen.counter_1" BEL
+        "XLXI_2/tx_clk_gen.counter_0" BEL "XLXI_2/rx_fsm_FSM_FFd1" BEL
+        "XLXI_2/rx_fsm_FSM_FFd2" BEL "XLXI_2/tx_fsm_FSM_FFd1" BEL
+        "XLXI_2/tx_fsm_FSM_FFd2" BEL "XLXI_2/tx_fsm_FSM_FFd3" BEL
+        "XLXI_2/tx_data_cnt_2" BEL "XLXI_2/tx_data_cnt_1" BEL
+        "XLXI_2/tx_data_cnt_0" BEL "XLXI_2/tx_par_bit" BEL
+        "XLXI_2/rx_clk_cnt_3" BEL "XLXI_2/rx_clk_cnt_2" BEL
+        "XLXI_2/rx_clk_cnt_1" BEL "XLXI_2/rx_clk_cnt_0" BEL
+        "XLXI_2/tx_data_tmp_6" BEL "XLXI_2/tx_data_tmp_5" BEL
+        "XLXI_2/tx_data_tmp_4" BEL "XLXI_2/tx_data_tmp_3" BEL
+        "XLXI_2/tx_data_tmp_2" BEL "XLXI_2/tx_data_tmp_1" BEL
+        "XLXI_2/tx_data_tmp_0" BEL "XLXI_2/rx_data_7" BEL "XLXI_2/rx_data_6"
+        BEL "XLXI_2/rx_data_5" BEL "XLXI_2/rx_data_4" BEL "XLXI_2/rx_data_3"
+        BEL "XLXI_2/rx_data_2" BEL "XLXI_2/rx_data_1" BEL "XLXI_2/rx_data_0"
+        BEL "XLXI_2/rx_data_tmp_7" BEL "XLXI_2/rx_data_tmp_6" BEL
+        "XLXI_2/rx_data_tmp_5" BEL "XLXI_2/rx_data_tmp_4" BEL
+        "XLXI_2/rx_data_tmp_3" BEL "XLXI_2/rx_data_tmp_2" BEL
+        "XLXI_2/rx_data_tmp_1" BEL "XLXI_2/tx_clk_en" BEL "XLXI_2/rx_clk_en"
+        BEL "XLXI_2/rx_debounceer.deb_buf_3" BEL
+        "XLXI_2/rx_debounceer.deb_buf_2" BEL "XLXI_2/rx_debounceer.deb_buf_1"
+        BEL "XLXI_2/rx_debounceer.deb_buf_0" BEL "XLXI_15/rx_fsm_FSM_FFd1" BEL
+        "XLXI_15/rx_fsm_FSM_FFd2" BEL "XLXI_15/DATA_7" BEL "XLXI_15/DATA_6"
+        BEL "XLXI_15/DATA_5" BEL "XLXI_15/DATA_4" BEL "XLXI_15/DATA_3" BEL
+        "XLXI_15/DATA_2" BEL "XLXI_15/DATA_1" BEL "XLXI_15/DATA_0" BEL
+        "XLXI_15/ALERT_2" BEL "XLXI_15/ALERT_1" BEL "XLXI_15/ALERT_0" BEL
+        "XLXI_2/tx" BEL "XLXI_2/tx_req_int" BEL "XLXI_2/rx_ready" BEL
+        "XLXI_2/tx_end" BEL "XLXI_2/rx_data_deb" BEL "CLOCK_100_BUFGP/BUFG"
+        PIN "XLXI_1/C2/pll_base_inst/PLL_ADV_pins<2>";
+TIMEGRP XLXI_1_VGACLK = BEL "XLXI_1/C1/VPOS_9" BEL "XLXI_1/C1/VPOS_8" BEL
+        "XLXI_1/C1/VPOS_7" BEL "XLXI_1/C1/VPOS_6" BEL "XLXI_1/C1/VPOS_5" BEL
+        "XLXI_1/C1/VPOS_4" BEL "XLXI_1/C1/VPOS_3" BEL "XLXI_1/C1/VPOS_2" BEL
+        "XLXI_1/C1/VPOS_1" BEL "XLXI_1/C1/VPOS_0" BEL "XLXI_1/C1/HPOS_10" BEL
+        "XLXI_1/C1/HPOS_9" BEL "XLXI_1/C1/HPOS_8" BEL "XLXI_1/C1/HPOS_7" BEL
+        "XLXI_1/C1/HPOS_6" BEL "XLXI_1/C1/HPOS_5" BEL "XLXI_1/C1/HPOS_4" BEL
+        "XLXI_1/C1/HPOS_3" BEL "XLXI_1/C1/HPOS_2" BEL "XLXI_1/C1/HPOS_1" BEL
+        "XLXI_1/C1/HPOS_0" BEL "XLXI_1/C1/G_0" BEL "XLXI_1/C1/B_0" BEL
+        "XLXI_1/C1/R_0" BEL "XLXI_1/C1/HPOS_8_1" BEL "XLXI_1/C1/HPOS_6_1" BEL
+        "XLXI_1/C1/VPOS_9_1" BEL "XLXI_1/C1/HPOS_7_1" BEL "XLXI_1/C1/VPOS_6_1"
+        BEL "XLXI_1/C1/VPOS_5_1" BEL "XLXI_1/C1/VPOS_2_1" BEL
+        "XLXI_1/C1/VPOS_4_1" BEL "XLXI_1/C1/VPOS_3_1" BEL "XLXI_1/C1/VPOS_7_1"
+        BEL "XLXI_1/C1/HPOS_5_1" BEL "XLXI_1/C1/VPOS_6_2" BEL
+        "XLXI_1/C1/VPOS_2_2" BEL "XLXI_1/C1/HPOS_2_1" BEL "XLXI_1/C1/HPOS_9_1"
+        BEL "XLXI_1/C1/HPOS_6_2" BEL "XLXI_1/C1/HPOS_5_2" BEL
+        "XLXI_1/C1/VPOS_7_2" BEL "XLXI_1/C1/HPOS_3_1" BEL "XLXI_1/C1/HPOS_4_1"
+        BEL "XLXI_1/C1/VPOS_5_2" BEL "XLXI_1/C1/HPOS_1_1" BEL
+        "XLXI_1/C1/VPOS_3_2" BEL "XLXI_1/C1/HPOS_2_2" BEL "XLXI_1/C1/HPOS_8_2"
+        BEL "XLXI_1/C1/VPOS_8_1" BEL "XLXI_1/C1/HPOS_7_2" BEL
+        "XLXI_1/C1/VPOS_4_2" BEL "XLXI_1/C1/HPOS_3_2" BEL "XLXI_1/C1/HPOS_5_3"
+        BEL "XLXI_1/C1/VPOS_2_3" BEL "XLXI_1/C1/HPOS_4_2" BEL
+        "XLXI_1/C1/HPOS_1_2" BEL "XLXI_1/C1/HPOS_9_2" BEL "XLXI_1/C1/VSYNC"
+        BEL "XLXI_1/C1/HSYNC";
+TIMEGRP XLXI_1_CLK5MHZ = BEL "XLXI_1/C3/cnt_30" BEL "XLXI_1/C3/cnt_29" BEL
+        "XLXI_1/C3/cnt_28" BEL "XLXI_1/C3/cnt_27" BEL "XLXI_1/C3/cnt_26" BEL
+        "XLXI_1/C3/cnt_25" BEL "XLXI_1/C3/cnt_24" BEL "XLXI_1/C3/cnt_23" BEL
+        "XLXI_1/C3/cnt_22" BEL "XLXI_1/C3/cnt_21" BEL "XLXI_1/C3/cnt_20" BEL
+        "XLXI_1/C3/cnt_19" BEL "XLXI_1/C3/cnt_18" BEL "XLXI_1/C3/cnt_17" BEL
+        "XLXI_1/C3/cnt_16" BEL "XLXI_1/C3/cnt_15" BEL "XLXI_1/C3/cnt_14" BEL
+        "XLXI_1/C3/cnt_13" BEL "XLXI_1/C3/cnt_12" BEL "XLXI_1/C3/cnt_11" BEL
+        "XLXI_1/C3/cnt_10" BEL "XLXI_1/C3/cnt_9" BEL "XLXI_1/C3/cnt_8" BEL
+        "XLXI_1/C3/cnt_7" BEL "XLXI_1/C3/cnt_6" BEL "XLXI_1/C3/cnt_5" BEL
+        "XLXI_1/C3/cnt_4" BEL "XLXI_1/C3/cnt_3" BEL "XLXI_1/C3/cnt_2" BEL
+        "XLXI_1/C3/cnt_1" BEL "XLXI_1/C3/cnt_0" BEL "XLXI_1/C3/AN_3" BEL
+        "XLXI_1/C3/AN_2" BEL "XLXI_1/C3/AN_1" BEL "XLXI_1/C3/AN_0" BEL
+        "XLXI_1/C3/SEG_6" BEL "XLXI_1/C3/SEG_5" BEL "XLXI_1/C3/SEG_4" BEL
+        "XLXI_1/C3/SEG_3" BEL "XLXI_1/C3/SEG_2" BEL "XLXI_1/C3/SEG_1" BEL
+        "XLXI_1/C3/SEG_0" BEL "XLXI_1/C3/COMMAND_5" BEL "XLXI_1/C3/COMMAND_4"
+        BEL "XLXI_1/C3/COMMAND_3" BEL "XLXI_1/C3/COMMAND_2" BEL
+        "XLXI_1/C3/COMMAND_1" BEL "XLXI_1/C3/COMMAND_0";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+TS_XLXI_1_CLK5MHZ = PERIOD TIMEGRP "XLXI_1_CLK5MHZ" TS_sys_clk_pin * 0.05 HIGH
+        50%;
+TS_XLXI_1_VGACLK = PERIOD TIMEGRP "XLXI_1_VGACLK" TS_sys_clk_pin * 0.857142857
+        HIGH 50%;
+SCHEMATIC END;
+
