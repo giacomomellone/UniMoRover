@@ -13,3 +13,5 @@ The following integrated development environments have been used to program:
 * ISE Design Suite 14.7, FPGA programming using VHDL
 
 A .zip is providen in case the folders didn't contains all the files. 
+
+The pdf *UniMoRover.pdf* and the slides *UniMoRover_slides.pptx* are made available (in italian) to examine in depth the project.
