@@ -1,0 +1,347 @@
+xst -intstyle ise -ifn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.xst" -ofn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.xst" -ofn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.xst" -ofn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.xst" -ofn "C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Downloads/Telegram Desktop/PSE_2017/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Downloads/Telegram Desktop/PSE_2017/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Downloads/Telegram Desktop/PSE_2017/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Downloads/Telegram Desktop/PSE_2017/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Dropbox/Ingegneria/Progettazione di Sistemi Embedded - Condivisa/REPORT/DA CONSEGNARE/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Dropbox/Ingegneria/Progettazione di Sistemi Embedded - Condivisa/REPORT/DA CONSEGNARE/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Dropbox/Ingegneria/Progettazione di Sistemi Embedded - Condivisa/REPORT/DA CONSEGNARE/VGA_Car_1368x768_UART/vga_uart.xst" -ofn "C:/Users/Giacomo/Dropbox/Ingegneria/Progettazione di Sistemi Embedded - Condivisa/REPORT/DA CONSEGNARE/VGA_Car_1368x768_UART/vga_uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "vga_uart.ngc" vga_uart.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_uart_map.ncd vga_uart.ngd vga_uart.pcf 
+par -w -intstyle ise -ol high -mt off vga_uart_map.ncd vga_uart.ncd vga_uart.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_uart.twx vga_uart.ncd -o vga_uart.twr vga_uart.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f vga_uart.ut vga_uart.ncd 

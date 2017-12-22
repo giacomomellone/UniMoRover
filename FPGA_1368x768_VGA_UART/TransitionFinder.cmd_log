@@ -1,0 +1,2 @@
+vhdtdtfi -lib work TransitionFinder.vhd -prj VGA_Car_1368x768 -o TransitionFinder.spl -module TransitionFinder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 TransitionFinder.spl C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/TransitionFinder.sym 

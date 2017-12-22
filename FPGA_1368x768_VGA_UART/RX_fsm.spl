@@ -1,0 +1,8 @@
+[Inputs]
+clk
+rst
+rx_ready
+=rx_data[7:0]=
+[Outputs]
+=ALERT[2:0]=
+[BiDir]

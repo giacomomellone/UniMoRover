@@ -1,0 +1,723 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: VGA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : VGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\ipcore_dir\PLL.vhd" into library work
+Parsing entity <PLL>.
+Parsing architecture <xilinx> of entity <pll>.
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Ultrasonic_alert.vhd" into library work
+Parsing package <ultrasonic>.
+Parsing package body <ultrasonic>.
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Square.vhd" into library work
+Parsing package <frame>.
+Parsing package body <frame>.
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\car_template.vhd" into library work
+Parsing package <car_vga>.
+Parsing package body <car_vga>.
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\buttons_vga.vhd" into library work
+Parsing package <button_vga>.
+Parsing package body <button_vga>.
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" into library work
+Parsing entity <Sync>.
+Parsing architecture <Main> of entity <sync>.
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Display7.vhd" into library work
+Parsing entity <Display7>.
+Parsing architecture <Behavioral> of entity <display7>.
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\VGA.vhd" into library work
+Parsing entity <VGA>.
+Parsing architecture <Main> of entity <vga>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <VGA> (architecture <Main>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\VGA.vhd" Line 47: Using initial value '0' for reset since it is never assigned
+
+Elaborating entity <Sync> (architecture <Main>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 25: Using initial value 1800 for h_tot since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 26: Using initial value 1368 for h_vis since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 27: Using initial value 72 for h_fp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 29: Using initial value 216 for h_bp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 30: Using initial value 432 for h_timing since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 33: Using initial value 795 for v_tot since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 34: Using initial value 768 for v_vis since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 35: Using initial value 1 for v_fp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 37: Using initial value 23 for v_bp since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 38: Using initial value 27 for v_timing since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 45: Using initial value 552 for sq_x since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 46: Using initial value 97 for sq_y since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 47: Using initial value 1200 for h_side since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 48: Using initial value 690 for v_side since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 50: Using initial value 832 for car_x since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 51: Using initial value 267 for car_y since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 55: Using initial value 90 for a since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 56: Using initial value 70 for e since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 57: Using initial value 160 for d1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 58: Using initial value 440 for d2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 59: Using initial value 110 for h since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 60: Using initial value 80 for t since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 61: Using initial value 110 for p since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 62: Using initial value 150 for f since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 63: Using initial value 60 for r1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 64: Using initial value 250 for a1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 65: Using initial value 0 for h1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 66: Using initial value 110 for h2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 67: Using initial value 120 for an since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 86: Using initial value 768 for al_x1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 87: Using initial value 387 for al_y1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 88: Using initial value 1132 for al_x2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 89: Using initial value 227 for al_y2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 90: Using initial value 1368 for al_x3 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 91: Using initial value 387 for al_y3 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 92: Using initial value 30 for offset since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 94: Using initial value 582 for xbtn since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 95: Using initial value 577 for ybtn since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 96: Using initial value 70 for d since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 98: Using initial value 652 for x_btn_up since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 99: Using initial value 577 for y_btn_up since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 100: Using initial value 722 for x_btn_right since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 101: Using initial value 647 for y_btn_right since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 102: Using initial value 582 for x_btn_left since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 103: Using initial value 647 for y_btn_left since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 104: Using initial value 652 for x_btn_down since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 105: Using initial value 717 for y_btn_down since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd" Line 106: Using initial value 50 for s since it is never assigned
+
+Elaborating entity <PLL> (architecture <xilinx>) from library <work>.
+
+Elaborating entity <Display7> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <VGA>.
+    Related source file is "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\VGA.vhd".
+    Summary:
+	no macro.
+Unit <VGA> synthesized.
+
+Synthesizing Unit <Sync>.
+    Related source file is "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Sync.vhd".
+    Found 4-bit register for signal <G>.
+    Found 4-bit register for signal <B>.
+    Found 11-bit register for signal <HPOS>.
+    Found 10-bit register for signal <VPOS>.
+    Found 1-bit register for signal <HSYNC>.
+    Found 1-bit register for signal <VSYNC>.
+    Found 4-bit register for signal <R>.
+    Found 11-bit adder for signal <HPOS[10]_GND_9_o_add_146_OUT> created at line 196.
+    Found 10-bit adder for signal <VPOS[9]_GND_9_o_add_148_OUT> created at line 201.
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_1_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_2_o> created at line 23
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_5_o> created at line 25
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_9_o_LessThan_6_o> created at line 25
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_9_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_9_o_LessThan_10_o> created at line 23
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_13_o> created at line 25
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_14_o> created at line 25
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_9_o_LessThan_17_o> created at line 29
+    Found 11-bit comparator greater for signal <PWR_9_o_HPOS[10]_LessThan_18_o> created at line 29
+    Found 11-bit comparator greater for signal <PWR_9_o_HPOS[10]_LessThan_21_o> created at line 31
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_22_o> created at line 31
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_27_o> created at line 37
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_39_o> created at line 46
+    Found 10-bit comparator greater for signal <PWR_9_o_VPOS[9]_LessThan_42_o> created at line 48
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_9_o_LessThan_43_o> created at line 48
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_44_o> created at line 48
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_45_o> created at line 48
+    Found 11-bit comparator greater for signal <PWR_9_o_HPOS[10]_LessThan_48_o> created at line 50
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_49_o> created at line 50
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_50_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_9_o_LessThan_51_o> created at line 23
+    Found 11-bit comparator greater for signal <PWR_9_o_HPOS[10]_LessThan_64_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_65_o> created at line 23
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_66_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_9_o_LessThan_67_o> created at line 23
+    Found 11-bit comparator greater for signal <PWR_9_o_HPOS[10]_LessThan_78_o> created at line 23
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_79_o> created at line 23
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_80_o> created at line 23
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_9_o_LessThan_81_o> created at line 23
+    Found 10-bit comparator greater for signal <PWR_9_o_VPOS[9]_LessThan_94_o> created at line 21
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_9_o_LessThan_95_o> created at line 21
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_96_o> created at line 21
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_9_o_LessThan_97_o> created at line 21
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_100_o> created at line 21
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_9_o_LessThan_101_o> created at line 21
+    Found 10-bit comparator greater for signal <PWR_9_o_VPOS[9]_LessThan_102_o> created at line 21
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_9_o_LessThan_103_o> created at line 21
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_104_o> created at line 21
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_9_o_LessThan_105_o> created at line 21
+    Found 10-bit comparator greater for signal <PWR_9_o_VPOS[9]_LessThan_106_o> created at line 21
+    Found 10-bit comparator greater for signal <VPOS[9]_PWR_9_o_LessThan_107_o> created at line 21
+    Found 11-bit comparator greater for signal <HPOS[10]_PWR_9_o_LessThan_146_o> created at line 195
+    Found 10-bit comparator lessequal for signal <VPOS[9]_PWR_9_o_LessThan_148_o> created at line 200
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_153_o> created at line 206
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_9_o_LessThan_154_o> created at line 206
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_155_o> created at line 211
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_9_o_LessThan_156_o> created at line 211
+    Found 11-bit comparator greater for signal <GND_9_o_HPOS[10]_LessThan_157_o> created at line 216
+    Found 11-bit comparator greater for signal <HPOS[10]_GND_9_o_LessThan_158_o> created at line 216
+    Found 10-bit comparator greater for signal <GND_9_o_VPOS[9]_LessThan_159_o> created at line 216
+    Found 10-bit comparator greater for signal <VPOS[9]_GND_9_o_LessThan_160_o> created at line 216
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+	inferred  52 Comparator(s).
+	inferred  18 Multiplexer(s).
+Unit <Sync> synthesized.
+
+Synthesizing Unit <PLL>.
+    Related source file is "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\ipcore_dir\PLL.vhd".
+    Summary:
+	no macro.
+Unit <PLL> synthesized.
+
+Synthesizing Unit <Display7>.
+    Related source file is "C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\Display7.vhd".
+    Found 8-bit register for signal <COMMAND>.
+    Found 4-bit register for signal <AN>.
+    Found 8-bit register for signal <SEG>.
+    Found 31-bit register for signal <cnt>.
+    Found 31-bit adder for signal <cnt[30]_GND_15_o_add_0_OUT> created at line 43.
+    Found 31-bit comparator greater for signal <cnt[30]_GND_15_o_LessThan_115_o> created at line 165
+    Found 31-bit comparator greater for signal <cnt[30]_GND_15_o_LessThan_117_o> created at line 168
+    Found 31-bit comparator greater for signal <cnt[30]_GND_15_o_LessThan_119_o> created at line 171
+    Found 31-bit comparator greater for signal <cnt[30]_GND_15_o_LessThan_121_o> created at line 174
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  51 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  47 Multiplexer(s).
+Unit <Display7> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 10-bit adder                                          : 1
+ 11-bit adder                                          : 1
+ 31-bit adder                                          : 1
+# Registers                                            : 11
+ 1-bit register                                        : 2
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 31-bit register                                       : 1
+ 4-bit register                                        : 4
+ 8-bit register                                        : 2
+# Comparators                                          : 56
+ 10-bit comparator greater                             : 22
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 29
+ 31-bit comparator greater                             : 4
+# Multiplexers                                         : 65
+ 31-bit 2-to-1 multiplexer                             : 14
+ 4-bit 2-to-1 multiplexer                              : 30
+ 8-bit 2-to-1 multiplexer                              : 21
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Sync>.
+The following registers are absorbed into counter <HPOS>: 1 register on signal <HPOS>.
+The following registers are absorbed into counter <VPOS>: 1 register on signal <VPOS>.
+Unit <Sync> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 31-bit adder                                          : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 65
+ Flip-Flops                                            : 65
+# Comparators                                          : 56
+ 10-bit comparator greater                             : 22
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 29
+ 31-bit comparator greater                             : 4
+# Multiplexers                                         : 65
+ 31-bit 2-to-1 multiplexer                             : 14
+ 4-bit 2-to-1 multiplexer                              : 30
+ 8-bit 2-to-1 multiplexer                              : 21
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <COMMAND_5> (without init value) has a constant value of 0 in block <Display7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <COMMAND_6> (without init value) has a constant value of 1 in block <Display7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <COMMAND_7> (without init value) has a constant value of 0 in block <Display7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SEG_7> (without init value) has a constant value of 1 in block <Display7>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance C2/pll_base_inst in unit C2/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <R_0> in Unit <Sync> is equivalent to the following 3 FFs/Latches, which will be removed : <R_1> <R_2> <R_3> 
+INFO:Xst:2261 - The FF/Latch <B_0> in Unit <Sync> is equivalent to the following 3 FFs/Latches, which will be removed : <B_1> <B_2> <B_3> 
+INFO:Xst:2261 - The FF/Latch <G_0> in Unit <Sync> is equivalent to the following 3 FFs/Latches, which will be removed : <G_1> <G_2> <G_3> 
+
+Optimizing unit <VGA> ...
+
+Optimizing unit <Sync> ...
+
+Optimizing unit <Display7> ...
+INFO:Xst:3203 - The FF/Latch <C3/COMMAND_2> in Unit <VGA> is the opposite to the following FF/Latch, which will be removed : <C3/COMMAND_1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VGA, actual ratio is 4.
+FlipFlop C1/HPOS_1 has been replicated 2 time(s)
+FlipFlop C1/HPOS_10 has been replicated 2 time(s)
+FlipFlop C1/HPOS_2 has been replicated 2 time(s)
+FlipFlop C1/HPOS_3 has been replicated 2 time(s)
+FlipFlop C1/HPOS_4 has been replicated 2 time(s)
+FlipFlop C1/HPOS_5 has been replicated 3 time(s)
+FlipFlop C1/HPOS_6 has been replicated 2 time(s)
+FlipFlop C1/HPOS_7 has been replicated 3 time(s)
+FlipFlop C1/HPOS_8 has been replicated 1 time(s)
+FlipFlop C1/HPOS_9 has been replicated 2 time(s)
+FlipFlop C1/VPOS_2 has been replicated 3 time(s)
+FlipFlop C1/VPOS_3 has been replicated 2 time(s)
+FlipFlop C1/VPOS_4 has been replicated 1 time(s)
+FlipFlop C1/VPOS_5 has been replicated 2 time(s)
+FlipFlop C1/VPOS_6 has been replicated 2 time(s)
+FlipFlop C1/VPOS_7 has been replicated 1 time(s)
+FlipFlop C1/VPOS_8 has been replicated 1 time(s)
+FlipFlop C1/VPOS_9 has been replicated 1 time(s)
+FlipFlop C3/COMMAND_2 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 107
+ Flip-Flops                                            : 107
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : VGA.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 461
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 49
+#      LUT2                        : 18
+#      LUT3                        : 63
+#      LUT4                        : 41
+#      LUT5                        : 62
+#      LUT6                        : 91
+#      MUXCY                       : 74
+#      MUXF7                       : 3
+#      VCC                         : 1
+#      XORCY                       : 52
+# FlipFlops/Latches                : 107
+#      FD                          : 1
+#      FDR                         : 67
+#      FDRE                        : 24
+#      FDS                         : 7
+#      FDSE                        : 8
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 45
+#      IBUF                        : 7
+#      IBUFG                       : 1
+#      OBUF                        : 37
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             103  out of  18224     0%  
+ Number of Slice LUTs:                  330  out of   9112     3%  
+    Number used as Logic:               330  out of   9112     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    363
+   Number with an unused Flip Flop:     260  out of    363    71%  
+   Number with an unused LUT:            33  out of    363     9%  
+   Number of fully used LUT-FF pairs:    70  out of    363    19%  
+   Number of unique control sets:         9
+
+IO Utilization: 
+ Number of IOs:                          45
+ Number of bonded IOBs:                  45  out of    232    19%  
+    IOB Flip Flops/Latches:               4
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+C2/pll_base_inst/CLKOUT0           | BUFG                   | 60    |
+C2/pll_base_inst/CLKOUT1           | BUFG                   | 47    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.398ns (Maximum Frequency: 156.290MHz)
+   Minimum input arrival time before clock: 6.125ns
+   Maximum output required time after clock: 4.382ns
+   Maximum combinational path delay: 4.443ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'C2/pll_base_inst/CLKOUT0'
+  Clock period: 6.398ns (frequency: 156.290MHz)
+  Total number of paths / destination ports: 3916 / 140
+-------------------------------------------------------------------------
+Delay:               6.398ns (Levels of Logic = 6)
+  Source:            C1/VPOS_0 (FF)
+  Destination:       C1/G_0 (FF)
+  Source Clock:      C2/pll_base_inst/CLKOUT0 rising
+  Destination Clock: C2/pll_base_inst/CLKOUT0 rising
+
+  Data Path: C1/VPOS_0 to C1/G_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            14   0.447   1.186  C1/VPOS_0 (C1/VPOS_0)
+     LUT5:I2->O            6   0.205   0.745  C1/VPOS[9]_PWR_9_o_LessThan_81_o21 (C1/VPOS[9]_PWR_9_o_LessThan_81_o2)
+     LUT6:I5->O            1   0.205   0.580  C1/DRAW_RIGHT_SW1 (N69)
+     LUT6:I5->O            4   0.205   0.684  C1/DRAW_RIGHT (C1/DRAW_RIGHT)
+     LUT6:I5->O            1   0.205   0.808  C1/DRAW_car113_SW0 (N83)
+     LUT6:I3->O            2   0.205   0.617  C1/DRAW_car113 (C1/DRAW_car113)
+     LUT6:I5->O            1   0.205   0.000  C1/G_0_glue_set (C1/G_0_glue_set)
+     FDR:D                     0.102          C1/G_0
+    ----------------------------------------
+    Total                      6.398ns (1.779ns logic, 4.619ns route)
+                                       (27.8% logic, 72.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'C2/pll_base_inst/CLKOUT1'
+  Clock period: 5.317ns (frequency: 188.092MHz)
+  Total number of paths / destination ports: 13033 / 46
+-------------------------------------------------------------------------
+Delay:               5.317ns (Levels of Logic = 7)
+  Source:            C3/cnt_15 (FF)
+  Destination:       C3/SEG_6 (FF)
+  Source Clock:      C2/pll_base_inst/CLKOUT1 rising
+  Destination Clock: C2/pll_base_inst/CLKOUT1 rising
+
+  Data Path: C3/cnt_15 to C3/SEG_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.447   1.174  C3/cnt_15 (C3/cnt_15)
+     LUT5:I0->O            1   0.203   0.000  C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_lut<2> (C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_lut<2>)
+     MUXCY:S->O            1   0.172   0.000  C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<2> (C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<3> (C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<4> (C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<4>)
+     MUXCY:CI->O          11   0.213   0.883  C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<5> (C3/Mcompar_cnt[30]_GND_15_o_LessThan_119_o_cy<5>)
+     LUT2:I1->O            1   0.205   0.684  C3/_n0268_inv_SW0 (N32)
+     LUT6:I4->O            7   0.203   0.773  C3/_n0268_inv (C3/_n0268_inv)
+     FDSE:CE                   0.322          C3/SEG_2
+    ----------------------------------------
+    Total                      5.317ns (1.803ns logic, 3.514ns route)
+                                       (33.9% logic, 66.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'C2/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 1276 / 102
+-------------------------------------------------------------------------
+Offset:              6.125ns (Levels of Logic = 5)
+  Source:            BTN<2> (PAD)
+  Destination:       C3/SEG_6 (FF)
+  Destination Clock: C2/pll_base_inst/CLKOUT1 rising
+
+  Data Path: BTN<2> to C3/SEG_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            21   1.222   1.361  BTN_2_IBUF (BTN_2_IBUF)
+     LUT4:I0->O            7   0.203   1.021  C3/BTN[0]_BTN[3]_AND_99_o<0>1 (C3/BTN[0]_BTN[3]_AND_99_o)
+     LUT4:I0->O            1   0.203   0.924  C3/GND_15_o_cnt[30]_AND_112_o_mmx_out1_SW1 (N95)
+     LUT6:I1->O            1   0.203   0.684  C3/Mmux_PWR_14_o_SEG[7]_mux_152_OUT132 (C3/Mmux_PWR_14_o_SEG[7]_mux_152_OUT132)
+     LUT6:I4->O            1   0.203   0.000  C3/Mmux_PWR_14_o_SEG[7]_mux_152_OUT133 (C3/PWR_14_o_SEG[7]_mux_152_OUT<6>)
+     FDSE:D                    0.102          C3/SEG_6
+    ----------------------------------------
+    Total                      6.125ns (2.136ns logic, 3.989ns route)
+                                       (34.9% logic, 65.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'C2/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 17 / 3
+-------------------------------------------------------------------------
+Offset:              5.704ns (Levels of Logic = 6)
+  Source:            KEY<1> (PAD)
+  Destination:       C1/G_0 (FF)
+  Destination Clock: C2/pll_base_inst/CLKOUT0 rising
+
+  Data Path: KEY<1> to C1/G_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.898  KEY_1_IBUF (LED_1_OBUF)
+     LUT4:I0->O            1   0.203   0.580  C1/VPOS[9]_GND_9_o_LessThan_67_o11_SW0 (N78)
+     LUT6:I5->O            1   0.205   0.684  C1/DRAW_AL29_SW0 (N47)
+     LUT6:I4->O            1   0.203   0.580  C1/DRAW_car111 (C1/DRAW_car111)
+     LUT6:I5->O            2   0.205   0.617  C1/DRAW_car113 (C1/DRAW_car113)
+     LUT6:I5->O            1   0.205   0.000  C1/G_0_glue_set (C1/G_0_glue_set)
+     FDR:D                     0.102          C1/G_0
+    ----------------------------------------
+    Total                      5.704ns (2.345ns logic, 3.359ns route)
+                                       (41.1% logic, 58.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'C2/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              3.701ns (Levels of Logic = 1)
+  Source:            C1/R_0 (FF)
+  Destination:       VGA_R<3> (PAD)
+  Source Clock:      C2/pll_base_inst/CLKOUT0 rising
+
+  Data Path: C1/R_0 to VGA_R<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.447   0.683  C1/R_0 (C1/R_0)
+     OBUF:I->O                 2.571          VGA_R_3_OBUF (VGA_R<3>)
+    ----------------------------------------
+    Total                      3.701ns (3.018ns logic, 0.683ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'C2/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              4.382ns (Levels of Logic = 2)
+  Source:            C3/COMMAND_2 (FF)
+  Destination:       COMMAND<1> (PAD)
+  Source Clock:      C2/pll_base_inst/CLKOUT1 rising
+
+  Data Path: C3/COMMAND_2 to COMMAND<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             1   0.447   0.579  C3/COMMAND_2 (C3/COMMAND_2)
+     INV:I->O              1   0.206   0.579  COMMAND<2>_inv1_INV_0 (COMMAND_1_OBUF)
+     OBUF:I->O                 2.571          COMMAND_1_OBUF (COMMAND<1>)
+    ----------------------------------------
+    Total                      4.382ns (3.224ns logic, 1.158ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               4.443ns (Levels of Logic = 2)
+  Source:            KEY<2> (PAD)
+  Destination:       LED<2> (PAD)
+
+  Data Path: KEY<2> to LED<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.650  KEY_2_IBUF (LED_2_OBUF)
+     OBUF:I->O                 2.571          LED_2_OBUF (LED<2>)
+    ----------------------------------------
+    Total                      4.443ns (3.793ns logic, 0.650ns route)
+                                       (85.4% logic, 14.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock C2/pll_base_inst/CLKOUT0
+------------------------+---------+---------+---------+---------+
+                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------+---------+---------+---------+---------+
+C2/pll_base_inst/CLKOUT0|    6.398|         |         |         |
+------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock C2/pll_base_inst/CLKOUT1
+------------------------+---------+---------+---------+---------+
+                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------+---------+---------+---------+---------+
+C2/pll_base_inst/CLKOUT1|    5.317|         |         |         |
+------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.82 secs
+ 
+--> 
+
+Total memory usage is 254732 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   53 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

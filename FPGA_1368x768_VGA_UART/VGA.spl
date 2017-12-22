@@ -1,0 +1,14 @@
+[Inputs]
+CLOCK_100
+=ALERT[2:0]=
+=BTN[4:0]=
+[Outputs]
+VGA_HS
+VGA_VS
+=VGA_R[3:0]=
+=VGA_G[3:0]=
+=VGA_B[3:0]=
+=SEG[7:0]=
+=AN[3:0]=
+=COMMAND[7:0]=
+[BiDir]

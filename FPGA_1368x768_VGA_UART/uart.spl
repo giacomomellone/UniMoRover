@@ -1,0 +1,13 @@
+[Inputs]
+clk
+rst
+rx
+par_en
+tx_req
+=tx_data[7:0]=
+[Outputs]
+tx
+tx_end
+rx_ready
+=rx_data[7:0]=
+[BiDir]

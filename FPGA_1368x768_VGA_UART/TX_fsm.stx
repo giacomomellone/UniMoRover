@@ -1,0 +1,57 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: TX_fsm.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Giacomo\Google Drive\FPGA\VGA_UART\VGA_Car_1368x768_UART\TX_fsm.vhd" into library work
+Parsing entity <TX_fsm>.
+Parsing architecture <Behavioral> of entity <tx_fsm>.
+WARNING:HDLCompiler:212 - "C:\Users\Giacomo\Google Drive\FPGA\VGA_UART\VGA_Car_1368x768_UART\TX_fsm.vhd" Line 58: Argument to operator call "=" is ambiguous. Use qualified expression or switch to 87 mode
+ERROR:HDLCompiler:1731 - "C:\Users\Giacomo\Google Drive\FPGA\VGA_UART\VGA_Car_1368x768_UART\TX_fsm.vhd" Line 58: found '0' definitions of operator "=", cannot determine exact overloaded matching definition for "="
+ERROR:HDLCompiler:69 - "C:\Users\Giacomo\Google Drive\FPGA\VGA_UART\VGA_Car_1368x768_UART\TX_fsm.vhd" Line 72: <rst_lvl> is not declared.
+ERROR:HDLCompiler:854 - "C:\Users\Giacomo\Google Drive\FPGA\VGA_UART\VGA_Car_1368x768_UART\TX_fsm.vhd" Line 25: Unit <behavioral> ignored due to previous errors.
+VHDL file C:\Users\Giacomo\Google Drive\FPGA\VGA_UART\VGA_Car_1368x768_UART\TX_fsm.vhd ignored due to errors
+--> 
+
+Total memory usage is 187276 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

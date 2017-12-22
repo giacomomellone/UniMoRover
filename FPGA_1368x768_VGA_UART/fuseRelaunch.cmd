@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA_isim_beh.exe" -prj "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA_beh.prj" "work.VGA" 

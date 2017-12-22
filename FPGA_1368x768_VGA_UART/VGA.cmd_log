@@ -1,0 +1,1228 @@
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_1/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_attempt_2/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_car_attempt/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_universal/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.sym} 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.sym} 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.xst" -ofn "C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "VGA.ngc" VGA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -mt off VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.sym} 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA/VGA_Car_1368x768/VGA.sym} 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl C:/Users/Giacomo/Desktop/VGA_UART_1/VGA_Car_1368x768_command/VGA.sym 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/VGA.sym} 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work horn_vga.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/VGA.sym} 
+vhdtdtfi -lib work Ultrasonic_alert.vhd -lib work Square.vhd -lib work horn_vga.vhd -lib work car_template.vhd -lib work buttons_vga.vhd -lib work Sync.vhd -lib work Display7.vhd -lib work VGA.vhd -prj VGA_Car_1368x768 -o VGA.spl -module VGA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 VGA.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/VGA.sym} 

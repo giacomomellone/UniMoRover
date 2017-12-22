@@ -1,0 +1,8 @@
+work	"Display7.vhd"
+work	"Square.vhd"
+work	"Sync.vhd"
+work	"Ultrasonic_alert.vhd"
+work	"VGA.vhd"
+work	"buttons_vga.vhd"
+work	"car_template.vhd"
+work	"horn_vga.vhd"

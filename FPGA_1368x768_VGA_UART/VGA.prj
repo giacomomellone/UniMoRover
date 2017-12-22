@@ -1,0 +1,8 @@
+vhdl work "ipcore_dir/PLL.vhd"
+vhdl work "Ultrasonic_alert.vhd"
+vhdl work "Square.vhd"
+vhdl work "car_template.vhd"
+vhdl work "buttons_vga.vhd"
+vhdl work "Sync.vhd"
+vhdl work "Display7.vhd"
+vhdl work "VGA.vhd"

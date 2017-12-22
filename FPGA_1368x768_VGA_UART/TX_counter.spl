@@ -1,0 +1,7 @@
+[Inputs]
+clk
+rst
+tx_end
+[Outputs]
+tx_req
+[BiDir]

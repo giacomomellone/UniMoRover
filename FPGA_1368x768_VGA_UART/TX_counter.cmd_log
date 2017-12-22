@@ -1,0 +1,2 @@
+vhdtdtfi -lib work TX_counter.vhd -prj VGA_Car_1368x768 -o TX_counter.spl -module TX_counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 TX_counter.spl {C:/Users/Giacomo/Google Drive/FPGA/VGA_UART/VGA_Car_1368x768_UART/TX_counter.sym} 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\VGA.ncd
+OUTFILE=C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768\VGA.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Giacomo\Google Drive\FPGA\VGA\VGA_Car_1368x768
+LICENSE=WebPack
+USER_INFO=211335103_0_0_339
