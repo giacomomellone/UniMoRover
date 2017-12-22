@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\VGA.vhd" Line 42: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">reset</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 28: Using initial value <arg fmt="%s" index="1">1800</arg> for <arg fmt="%s" index="2">h_tot</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 29: Using initial value <arg fmt="%s" index="1">1368</arg> for <arg fmt="%s" index="2">h_vis</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 30: Using initial value <arg fmt="%s" index="1">72</arg> for <arg fmt="%s" index="2">h_fp</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 32: Using initial value <arg fmt="%s" index="1">216</arg> for <arg fmt="%s" index="2">h_bp</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 33: Using initial value <arg fmt="%s" index="1">432</arg> for <arg fmt="%s" index="2">h_timing</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 36: Using initial value <arg fmt="%s" index="1">795</arg> for <arg fmt="%s" index="2">v_tot</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 37: Using initial value <arg fmt="%s" index="1">768</arg> for <arg fmt="%s" index="2">v_vis</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 38: Using initial value <arg fmt="%s" index="1">1</arg> for <arg fmt="%s" index="2">v_fp</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 40: Using initial value <arg fmt="%s" index="1">23</arg> for <arg fmt="%s" index="2">v_bp</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 41: Using initial value <arg fmt="%s" index="1">27</arg> for <arg fmt="%s" index="2">v_timing</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 49: Using initial value <arg fmt="%s" index="1">552</arg> for <arg fmt="%s" index="2">sq_x</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 50: Using initial value <arg fmt="%s" index="1">67</arg> for <arg fmt="%s" index="2">sq_y</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 51: Using initial value <arg fmt="%s" index="1">1200</arg> for <arg fmt="%s" index="2">h_side</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 52: Using initial value <arg fmt="%s" index="1">690</arg> for <arg fmt="%s" index="2">v_side</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 55: Using initial value <arg fmt="%s" index="1">832</arg> for <arg fmt="%s" index="2">car_x</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 56: Using initial value <arg fmt="%s" index="1">237</arg> for <arg fmt="%s" index="2">car_y</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 62: Using initial value <arg fmt="%s" index="1">90</arg> for <arg fmt="%s" index="2">a</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 63: Using initial value <arg fmt="%s" index="1">70</arg> for <arg fmt="%s" index="2">e</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 64: Using initial value <arg fmt="%s" index="1">160</arg> for <arg fmt="%s" index="2">d1</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 65: Using initial value <arg fmt="%s" index="1">440</arg> for <arg fmt="%s" index="2">d2</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 66: Using initial value <arg fmt="%s" index="1">110</arg> for <arg fmt="%s" index="2">h</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 67: Using initial value <arg fmt="%s" index="1">80</arg> for <arg fmt="%s" index="2">t</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 68: Using initial value <arg fmt="%s" index="1">110</arg> for <arg fmt="%s" index="2">p</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 69: Using initial value <arg fmt="%s" index="1">150</arg> for <arg fmt="%s" index="2">f</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 70: Using initial value <arg fmt="%s" index="1">60</arg> for <arg fmt="%s" index="2">r1</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 71: Using initial value <arg fmt="%s" index="1">250</arg> for <arg fmt="%s" index="2">a1</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 72: Using initial value <arg fmt="%s" index="1">0</arg> for <arg fmt="%s" index="2">h1</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 73: Using initial value <arg fmt="%s" index="1">110</arg> for <arg fmt="%s" index="2">h2</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 74: Using initial value <arg fmt="%s" index="1">120</arg> for <arg fmt="%s" index="2">an</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 95: Using initial value <arg fmt="%s" index="1">756</arg> for <arg fmt="%s" index="2">al_x1</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 96: Using initial value <arg fmt="%s" index="1">347</arg> for <arg fmt="%s" index="2">al_y1</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 97: Using initial value <arg fmt="%s" index="1">1356</arg> for <arg fmt="%s" index="2">al_x2</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 98: Using initial value <arg fmt="%s" index="1">347</arg> for <arg fmt="%s" index="2">al_y2</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 99: Using initial value <arg fmt="%s" index="1">30</arg> for <arg fmt="%s" index="2">offset</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 102: Using initial value <arg fmt="%s" index="1">582</arg> for <arg fmt="%s" index="2">xbtn</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 103: Using initial value <arg fmt="%s" index="1">547</arg> for <arg fmt="%s" index="2">ybtn</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 104: Using initial value <arg fmt="%s" index="1">70</arg> for <arg fmt="%s" index="2">d</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 105: Using initial value <arg fmt="%s" index="1">652</arg> for <arg fmt="%s" index="2">x_btn_up</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 106: Using initial value <arg fmt="%s" index="1">547</arg> for <arg fmt="%s" index="2">y_btn_up</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 107: Using initial value <arg fmt="%s" index="1">722</arg> for <arg fmt="%s" index="2">x_btn_right</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 108: Using initial value <arg fmt="%s" index="1">617</arg> for <arg fmt="%s" index="2">y_btn_right</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 109: Using initial value <arg fmt="%s" index="1">582</arg> for <arg fmt="%s" index="2">x_btn_left</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 110: Using initial value <arg fmt="%s" index="1">617</arg> for <arg fmt="%s" index="2">y_btn_left</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 111: Using initial value <arg fmt="%s" index="1">652</arg> for <arg fmt="%s" index="2">x_btn_down</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 112: Using initial value <arg fmt="%s" index="1">687</arg> for <arg fmt="%s" index="2">y_btn_down</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 113: Using initial value <arg fmt="%s" index="1">1582</arg> for <arg fmt="%s" index="2">x_motor</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 114: Using initial value <arg fmt="%s" index="1">87</arg> for <arg fmt="%s" index="2">y_motor</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 115: Using initial value <arg fmt="%s" index="1">50</arg> for <arg fmt="%s" index="2">s</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 116: Using initial value <arg fmt="%s" index="1">150</arg> for <arg fmt="%s" index="2">s_motor</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 119: Using initial value <arg fmt="%s" index="1">1082</arg> for <arg fmt="%s" index="2">x_horn</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 120: Using initial value <arg fmt="%s" index="1">287</arg> for <arg fmt="%s" index="2">y_horn</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\Sync.vhd" Line 121: Using initial value <arg fmt="%s" index="1">30</arg> for <arg fmt="%s" index="2">d_horn</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\TX_counter.vhd" Line 39: Using initial value <arg fmt="%s" index="1">idle</arg> for <arg fmt="%s" index="2">next_state</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\Giacomo\Dropbox\Ingegneria\Progettazione di Sistemi Embedded - Condivisa\REPORT\DA CONSEGNARE\VGA_Car_1368x768_UART\RX_fsm.vhd" Line 38: Using initial value <arg fmt="%s" index="1">idle</arg> for <arg fmt="%s" index="2">next_state</arg> since it is never assigned
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">ck_start_bit</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">tx_fsm</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">stop1</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">rx_fsm</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">stop2</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">rx_fsm</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">stop3</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">rx_fsm</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rx_data_tmp_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rx_data_tmp_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">uart</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">COMMAND_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Display7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">COMMAND_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Display7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">SEG_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Display7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">XLXI_1/C2/pll_base_inst</arg> in unit <arg fmt="%s" index="2">XLXI_1/C2/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">G_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Sync</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;G_1&gt; &lt;G_2&gt; &lt;G_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">B_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Sync</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;B_1&gt; &lt;B_2&gt; &lt;B_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">R_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Sync</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;R_1&gt; &lt;R_2&gt; &lt;R_3&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_2/tx_data_tmp_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vga_uart</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_2/rx_clk_cnt_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vga_uart</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">XLXI_2/rx_par_bit</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vga_uart</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2957" delta="old" >There are clock and non-clock loads on clock signal <arg fmt="%s" index="1">CLOCK_100_BUFGP</arg>. This is not a recommended design practice, that may cause excessive delay, skew or unroutable situations.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
