@@ -24,7 +24,7 @@ Link to the video demonstration: [Video UniMoRover](https://drive.google.com/fil
 ![UniMoRover](https://i.imgur.com/HacAzaw.jpg)
 
 
-**Developped by:**
+### Developped by: ###
 - _Mazzocchi Enrico_
 - _Mellone Giacomo_
 - _Pistoni Luca_
