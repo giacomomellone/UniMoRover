@@ -1,6 +1,9 @@
 # UniMoRover
 
-Development of a remotely controlled vehicle starting from a commercial solution for children (Peg Perego), conveniently modified in order to obtain a completely controllable system provided with sensors and intelligence for obstacle detection.
+UniMoRover is a project developped under the framework of Embedded System Programming exam, in the University of Modena and Reggio Emilia, Italy. 
+The goal was the development of a remotely controlled vehicle starting from a commercial solution for children (Peg Perego), conveniently modified in order to obtain a completely controllable system provided with sensors and intelligence for obstacle detection.
+
+The main features are listed:
 * Wireless communication between PIC μC @2.4 GHz using Serial Peripheral Interface (SPI) and nRF24L01 modules.
 * Controlled Area Network (CAN).
 * FPGA programming in order to print on a VGA monitor the sensors’ status and send commands to the vehicle.
