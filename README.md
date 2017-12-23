@@ -23,9 +23,9 @@ Link to the video demonstration: [Video UniMoRover](https://drive.google.com/fil
 
 ![UniMoRover](https://i.imgur.com/HacAzaw.jpg)
 
-**Developped by:
-- Mazzocchi Enrico
-- Mellone Giacomo
-- Pistoni Luca
-- Truffellini Samuele
-- Vidoni Aldo**
+**_Developped by:_**
+- _Mazzocchi Enrico_
+- _Mellone Giacomo_
+- _Pistoni Luca_
+- _Truffellini Samuele_
+- _Vidoni Aldo_
