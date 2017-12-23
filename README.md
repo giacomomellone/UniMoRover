@@ -1,6 +1,6 @@
 # UniMoRover
 
-UniMoRover is a project developped under the framework of Embedded System Programming exam, in the University of Modena and Reggio Emilia, Italy.
+UniMoRover is a project developed under the framework of Embedded System Programming exam, in the University of Modena and Reggio Emilia, Italy.
 The goal was the development of a remotely controlled vehicle starting from a commercial solution for children (Peg Perego), conveniently modified in order to obtain a completely controllable system provided with sensors and intelligence for obstacle detection.
 
 The main features are listed:
